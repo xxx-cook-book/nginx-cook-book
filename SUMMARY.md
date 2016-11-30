@@ -4,7 +4,7 @@
 
 * [HTTPS](HTTPS/README.md)
   * [HPPT => HTTPS](HTTPS/http-to-https.md)
-  * [SSL](HTTPS/ssl.md)
+  * [Secure Sockets Layer(SSL)](HTTPS/ssl.md)
 
 # Appendix
 

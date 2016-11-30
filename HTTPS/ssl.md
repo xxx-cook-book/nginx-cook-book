@@ -1,4 +1,4 @@
-# SSL
+# Secure Sockets Layer(SSL)
 
 ```nginx
 server {
@@ -8,7 +8,6 @@ server {
     charset      utf-8;
 
     ssl on;
-    # [StartSSL](https://www.startssl.com)
     ssl_certificate         /xxx/xxx.crt;
     ssl_certificate_key     /xxx/xxx-privkey.key;
     # ssl_client_certificate  /xxx/xxx.pem;
@@ -21,7 +20,7 @@ server {
 }
 ```
 
-## StartSSL
+## [StartSSL](https://www.startssl.com)
 
 * Create ``privkey.key``
 
@@ -40,5 +39,3 @@ server {
   ```shell
   xxx.crt
   ```
-
-  ​
