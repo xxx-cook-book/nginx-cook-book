@@ -1,4 +1,4 @@
-# HTTP => HTTPS
+# Http => Https
 
 ## rewrite
 
