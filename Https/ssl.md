@@ -20,28 +20,6 @@ server {
 }
 ```
 
-## [StartSSL](https://www.startssl.com)
-
-* Create ``privkey.key``
-
-  ```shell
-  openssl genrsa -out xxx-privkey.key 2048
-  ```
-
-* Create ``csr``
-
-  ```shell
-  openssl req -new -key xxx-privkey.key -out xxx.csr
-  ```
-
-* Certificate
-
-  ```shell
-  xxx.crt
-  ```
-
-*Tips: Firefox can not open*
-
 ## [Let's Encrypt](https://letsencrypt.org/)
 
 * [acme-tiny - A tiny script to issue and renew TLS certs from Let's Encrypt](https://github.com/diafygi/acme-tiny)
@@ -60,3 +38,25 @@ server {
       [install]
       trusted-host=mirrors.aliyun.com
       ```
+
+## [StartSSL](https://www.startssl.com)
+
+* Create ``privkey.key``
+
+  ```shell
+  openssl genrsa -out xxx-privkey.key 2048
+  ```
+
+* Create ``csrrepository``
+
+  ```shell
+  openssl req -new -key xxx-privkey.key -out xxx.csr
+  ```
+
+* Certificate
+
+  ```shell
+  xxx.crt
+  ```
+
+*Tips: Firefox can not open website which use ``StartSSL``*
