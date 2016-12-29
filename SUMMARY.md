@@ -7,6 +7,8 @@
   * [Http => Https](Https/http-to-https.md)
   * [HTTP/2](Https/http2.md)
   * [Secure Sockets Layer(SSL)](Https/ssl.md)
+* [Module](Module/README.md)
+  * [rewrite](Module/rewrite.md)
 
 # Appendix
 
